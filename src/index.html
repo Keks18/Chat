@@ -5,8 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-    <title>Webpack starter</title>
+    <link rel="stylesheet" type="text/css" href="sass/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/iconfinder_icon-news_2867930.ico">
+    <title>Chat</title>
 </head>
 <body>
+	<header class="headSite">
+		<pre  class="logotype">Slime</pre>
+		<p class="mess"><a class="unrMessage" href="#">Сообщения <em class="unread"><b>5</b></em></a></p>
+		<div  class="time">
+			<time class="realTime" datetime="10:19:30">10:19:30</time>
+			<div class="timeBox" >
+				<span>Время прибывания на сайте:</span>
+				<time class="userTime" datetime="10:19:30">10:19:30</time>
+			</div>
+		</div>
+		<p class="red"><a class="redaction" href="#">Редактирование личной информации</a><p>
+		
+	</header>
+	<aside class="users">
+		<ul class="usersList">
+			<a href="#"><li class="userName">User 1</li></a>
+			<a href="#"><li class="userName">User2</li></a>
+			<a href="#"><li class="userName away">User3</li></a>
+			<a href="#"><li class="userName">User4</li></a>
+			<a href="#"><li class="userName away">User5</li></a>
+			<a href="#"><li class="userName">User6</li></a>
+			<a href="#"><li class="userName">User7</li></a>
+			<a href="#"><li class="userName">User8</li></a>
+		</ul>
+		<section>
+			<ul>
+				<a href="#"><li class="chatName addChat">Добавить Чат <b>+</b></li></a>
+				<a href="#"><li class="chatName">Чат 1</li></a>
+				<a href="#"><li class="chatName">Чат 2</li></a>
+				<a href="#"><li class="chatName">Чат 3</li></a>
+				<a href="#"><li class="chatName">Чат 4</li></a>
+				<a href="#"><li class="chatName">Чат 5</li></a>
+			</ul>
+	</section>
+	</aside>
+
+	<section class="chatWindow">
+		<header class="headChatWindow">
+			<p class="NameChat">Чат 1</p>
+			<a href="#"><p class="usersOnl">онлайн:<i class="countUsersOnl"> 6</i> </p></a>
+			<hr class="chatLine">
+		</header>
+		<section class="messageWindow">
+			<div class="userMessage">
+				<div class="message">
+					<p><a href="#" class="nameSender">User 1</a><time class="messTime" datatime="2:40:30">3:20 PM</time></p>
+					<p>MASDSDSFMDKFMKDSKDsmfkdmslf,sldf sdfmsdkыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы</p>
+
+				</div>
+				<div class="message">
+					<p><a href="#" class="nameSender">User 1</a><time class="messTime" datatime="2:40:30">3:20 PM</time></p>
+					<p>MASDSDSFMDKFMKDSKDsmfkdmslf,sldf sdfmsdkыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы</p>
+
+				</div>
+				<div class="message">
+					<p><a href="#" class="nameSender">User 1</a><time class="messTime" datatime="2:40:30">3:20 PM</time></p>
+					<p>MASDSDSFMDKFMKDSKDsmfkdmslf,sldf sdfmsdkыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы</p>
+
+				</div>
+				<div class="message">
+					<p><a href="#" class="nameSender">User 1</a><time class="messTime" datatime="2:40:30">3:20 PM</time></p>
+					<p>MASDSDSFMDKFMKDSKDsmfkdmslf,sldf sdfmsdkыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы</p>
+
+				</div>
+				<div class="message">
+					<p><a href="#" class="nameSender">User 1</a><time class="messTime" datatime="2:40:30">3:20 PM</time></p>
+					<p>MASDSDSFMDKFMKDSKDsmfkdmslf,sldf sdfmsdkыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы</p>
+
+				</div>
+				<div class="message">
+					<p><a href="#" class="nameSender">User 1</a><time class="messTime" datatime="2:40:30">3:20 PM</time></p>
+					<p>MASDSDSFMDKFMKDSKDsmfkdmslf,sldf sdfmsdkыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы</p>
+
+				</div>
+				<div class="message">
+					<p><a href="#" class="nameSender">User 1</a><time class="messTime" datatime="2:40:30">3:20 PM</time></p>
+					<p>MASDSDSFMDKFMKDSKDsmfkdmslf,sldf sdfmsdkыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы</p>
+
+				</div>
+			</div>
+		</section>
+		<footer class="footChat">
+			<form class="sendForm">
+				<input class="inputText" type="text">
+				<input class="sendMessage" type="Submit" value="Отправить">
+
+			</form>
+			<p class="Formation">
+					<a class="big" href="#">B</a>
+					<a class="italic" href="#">i</a>
+					<a class="underl" href="#">u</a>
+				</p>
+				<p class="Information">
+					<i class="describeInf">символов:<a href="#">3</a></i>
+					<i class="describeInf">букв:<a href="#">3</a></i>
+					<i class="describeInf">невидимых символов:<a href="#">3</a></i>
+					<i class="describeInf">знаков препинания:<a href="#">3</a></i>
+				</p>
+	
+		</footer>
+	</section>
 </body>
 </html>
