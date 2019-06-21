@@ -4,8 +4,6 @@ import _ from 'lodash';
 import './../sass/styles.scss';
 
 const getHeader = () => {
-  const helloWebpack = _.join(['Hello', 'webpack!'], ' ');
-  console.log(helloWebpack);
   const element = document.createElement('h1');
 
   element.innerHTML = helloWebpack;
